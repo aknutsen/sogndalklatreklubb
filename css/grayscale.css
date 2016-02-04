@@ -147,8 +147,27 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    z-index: 1;
+}
+
+.air {
+    margin: 20px 0;
+}
+
+.intro:before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;  
+    opacity: .7; 
+    z-index: -1;
+    /*background: url(../img/kvam.jpg) no-repeat bottom center scroll;*/
+    /*background-color: #000;*/
+    background-image:  -webkit-linear-gradient(rgba(0,0,0, 0) 85%, rgba(0,0,0, 1) 100%), url(../img/kvam.jpg);
+    background-image:  -o-linear-gradient(rgba(0,0,0, 0) 85%, rgba(0,0,0, 1) 100%), url(../img/kvam.jpg);
+    background-image:  linear-gradient(rgba(0,0,0, 0) 85%, rgba(0,0,0, 1) 100%), url(../img/kvam.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -261,11 +280,28 @@ a:focus {
     padding-top: 100px;
 }
 
+.profile-picture {
+    border: 3px solid white;
+    background-color: gray;
+}
+
 .download-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/hurris-op.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.klatrer-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/klatrer.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
