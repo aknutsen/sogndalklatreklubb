@@ -283,13 +283,19 @@ a:focus {
 .profile-picture {
     border: 3px solid white;
     background-color: gray;
+    width: 205px;
 }
 
-.download-section {
+.dsm-section:before {
+    
+}
+
+.dsm-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/hurris-op.jpg) no-repeat center center scroll;
+    background-image:  -webkit-linear-gradient(rgba(0,0,0, 1) 0%, rgba(0,0,0, 0) 5%, rgba(0,0,0, 0) 95%, rgba(0,0,0, 1) 100%), url(../img/dsm-dark.jpg);
+    /*background: url(../img/dsm-dark.jpg) no-repeat center center scroll;*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -301,7 +307,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/klatrer.jpg) no-repeat center center scroll;
+    background-image:  -webkit-linear-gradient(rgba(0,0,0, 1) 0%, rgba(0,0,0, 0) 5%, rgba(0,0,0, 0) 95%, rgba(0,0,0, 1) 100%), url(../img/kjosnes-sig-dark-2.jpg);
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
