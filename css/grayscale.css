@@ -7,8 +7,8 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Montserrat,Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 100;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
     color: #fff;
     background-color: #000;
 }
@@ -58,8 +58,16 @@ a:focus {
     color: #1d9b6c;
 }
 
+.highlight {
+    color: #1d9b6c;
+}
+
+#styret h4 {
+    margin-bottom: 6px;
+}
+
 .light {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .navbar-custom {
